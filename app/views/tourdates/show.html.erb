@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @tourdate.description %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @tourdate.status %>
+</p>
+
+<%= link_to 'Edit', edit_tourdate_path(@tourdate) %> |
+<%= link_to 'Back', tourdates_path %>
